@@ -4,11 +4,9 @@
 # Function for validates a percent grade depends on the users entered and then prints the level grade
 while True:
     grade = input("Enter a percent grade: ")
-    grade  = int(grade)
-    
-    if grade < 0:
-        print("Invalid grade! Try again.")
-    elif grade <= 49:
+    grade = int(grade)
+    print("")
+    if grade <= 49:
         print("")
         print(f"{grade}% is R")
         break
