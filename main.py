@@ -5,6 +5,7 @@
 while True:
     grade = input("Enter a percent grade: ")
     grade = int(grade)
+    
     if grade <= 49 and grade >=0:
         print("")
         print(f"{grade}% is R")
