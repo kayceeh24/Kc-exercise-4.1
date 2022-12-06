@@ -1,7 +1,7 @@
 # Programmer: KC
 # Helped By: 
 
-# Function for validates a percent grade depends on the users entered and then prints the level grade
+# Function for validating a percent grade depends on the users input and then prints the level grade
 percent_grade = int(input("Enter a percent grade: "))
 while percent_grade < 0 or percent_grade > 100:
     print("Invalid grade! Try again.")
